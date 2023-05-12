@@ -1,0 +1,94 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeersManagement.BlazorApp", "front\BeersManagement.BlazorApp\BeersManagement.BlazorApp.csproj", "{F2A5E37D-12CE-409B-A002-D64992B7E508}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "back", "back", "{4F7F8423-67B1-4226-BA86-2AB85D7D2720}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{4BBF5FAE-E329-4D17-9D8D-B3252725C4CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeersManagement.Domain", "back\src\BeersManagement.Domain\BeersManagement.Domain.csproj", "{7E189193-5C29-47EC-9105-2D386B59AB47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeersManagement.Infrastructure", "back\src\BeersManagement.Infrastructure\BeersManagement.Infrastructure.csproj", "{080F85AE-63A8-4C9C-8F1F-1487547F3454}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeersManagement.Application", "back\src\BeersManagement.Application\BeersManagement.Application.csproj", "{798FF70D-87F3-4EC0-BE1E-3C71C09752CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "acceptance", "acceptance", "{BF5B3085-EBB1-483F-9190-FDCE6B5A0CD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeersManagement.Application.Tests", "back\tests\BeersManagement.Application.Tests\BeersManagement.Application.Tests.csproj", "{A7D4AB64-6000-4DB3-8CF4-3B46AB7AEAB7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "front", "front", "{71F26F54-B20C-43FC-8F19-9BC3E61276A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeersManagement.Api", "back\src\BeersManagement.Api\BeersManagement.Api.csproj", "{827ECB12-2294-4020-861A-2184B5230C58}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{C3FA7ABA-CE9B-438E-8736-87F9B3A85732}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeersManagement.Api.Tests", "back\tests\BeersManagement.Api.Tests\BeersManagement.Api.Tests.csproj", "{F8B2EA3E-8D34-4A6A-8961-B6A8E63DF0A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeersManagement.Infrastructure.Tests", "back\tests\BeersManagement.Infrastructure.Tests\BeersManagement.Infrastructure.Tests.csproj", "{29450A2C-F5BA-4151-92CF-1F7859D54610}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeersManagement.BlazorApp.Application", "front\BeersManagement.BlazorApp.Application\BeersManagement.BlazorApp.Application.csproj", "{40A043B6-074B-4B51-86D9-0DA6D83D1ABD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeersManagement.BlazorApp.Domain", "front\BeersManagement.BlazorApp.Domain\BeersManagement.BlazorApp.Domain.csproj", "{23399CE5-B223-4FDB-B49F-5DB2BEB0C7B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2A5E37D-12CE-409B-A002-D64992B7E508}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2A5E37D-12CE-409B-A002-D64992B7E508}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2A5E37D-12CE-409B-A002-D64992B7E508}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2A5E37D-12CE-409B-A002-D64992B7E508}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E189193-5C29-47EC-9105-2D386B59AB47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E189193-5C29-47EC-9105-2D386B59AB47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E189193-5C29-47EC-9105-2D386B59AB47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E189193-5C29-47EC-9105-2D386B59AB47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{080F85AE-63A8-4C9C-8F1F-1487547F3454}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{080F85AE-63A8-4C9C-8F1F-1487547F3454}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{080F85AE-63A8-4C9C-8F1F-1487547F3454}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{080F85AE-63A8-4C9C-8F1F-1487547F3454}.Release|Any CPU.Build.0 = Release|Any CPU
+		{798FF70D-87F3-4EC0-BE1E-3C71C09752CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{798FF70D-87F3-4EC0-BE1E-3C71C09752CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{798FF70D-87F3-4EC0-BE1E-3C71C09752CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{798FF70D-87F3-4EC0-BE1E-3C71C09752CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7D4AB64-6000-4DB3-8CF4-3B46AB7AEAB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7D4AB64-6000-4DB3-8CF4-3B46AB7AEAB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7D4AB64-6000-4DB3-8CF4-3B46AB7AEAB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7D4AB64-6000-4DB3-8CF4-3B46AB7AEAB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{827ECB12-2294-4020-861A-2184B5230C58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{827ECB12-2294-4020-861A-2184B5230C58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{827ECB12-2294-4020-861A-2184B5230C58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{827ECB12-2294-4020-861A-2184B5230C58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8B2EA3E-8D34-4A6A-8961-B6A8E63DF0A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8B2EA3E-8D34-4A6A-8961-B6A8E63DF0A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8B2EA3E-8D34-4A6A-8961-B6A8E63DF0A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8B2EA3E-8D34-4A6A-8961-B6A8E63DF0A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29450A2C-F5BA-4151-92CF-1F7859D54610}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29450A2C-F5BA-4151-92CF-1F7859D54610}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29450A2C-F5BA-4151-92CF-1F7859D54610}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29450A2C-F5BA-4151-92CF-1F7859D54610}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40A043B6-074B-4B51-86D9-0DA6D83D1ABD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40A043B6-074B-4B51-86D9-0DA6D83D1ABD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40A043B6-074B-4B51-86D9-0DA6D83D1ABD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40A043B6-074B-4B51-86D9-0DA6D83D1ABD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23399CE5-B223-4FDB-B49F-5DB2BEB0C7B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23399CE5-B223-4FDB-B49F-5DB2BEB0C7B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23399CE5-B223-4FDB-B49F-5DB2BEB0C7B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23399CE5-B223-4FDB-B49F-5DB2BEB0C7B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A7D4AB64-6000-4DB3-8CF4-3B46AB7AEAB7} = {4BBF5FAE-E329-4D17-9D8D-B3252725C4CE}
+		{F2A5E37D-12CE-409B-A002-D64992B7E508} = {71F26F54-B20C-43FC-8F19-9BC3E61276A2}
+		{C3FA7ABA-CE9B-438E-8736-87F9B3A85732} = {4F7F8423-67B1-4226-BA86-2AB85D7D2720}
+		{827ECB12-2294-4020-861A-2184B5230C58} = {C3FA7ABA-CE9B-438E-8736-87F9B3A85732}
+		{798FF70D-87F3-4EC0-BE1E-3C71C09752CC} = {C3FA7ABA-CE9B-438E-8736-87F9B3A85732}
+		{7E189193-5C29-47EC-9105-2D386B59AB47} = {C3FA7ABA-CE9B-438E-8736-87F9B3A85732}
+		{080F85AE-63A8-4C9C-8F1F-1487547F3454} = {C3FA7ABA-CE9B-438E-8736-87F9B3A85732}
+		{4BBF5FAE-E329-4D17-9D8D-B3252725C4CE} = {4F7F8423-67B1-4226-BA86-2AB85D7D2720}
+		{F8B2EA3E-8D34-4A6A-8961-B6A8E63DF0A5} = {4BBF5FAE-E329-4D17-9D8D-B3252725C4CE}
+		{29450A2C-F5BA-4151-92CF-1F7859D54610} = {4BBF5FAE-E329-4D17-9D8D-B3252725C4CE}
+		{40A043B6-074B-4B51-86D9-0DA6D83D1ABD} = {71F26F54-B20C-43FC-8F19-9BC3E61276A2}
+		{23399CE5-B223-4FDB-B49F-5DB2BEB0C7B2} = {71F26F54-B20C-43FC-8F19-9BC3E61276A2}
+	EndGlobalSection
+EndGlobal

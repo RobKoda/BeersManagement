@@ -1,0 +1,23 @@
+﻿@page "/"
+
+@using MediatR
+@using BeersManagement.BlazorApp.Application.Breweries.GetBreweries
+@using BeersManagement.BlazorApp.Domain.Breweries
+
+@inject IMediator Mediator
+
+@foreach (var theBrewery in _breweries)
+{
+    <p>@theBrewery.Name</p>
+}
+
+@code
+{
+    private IEnumerable<Brewery> _breweries = Enumerable.Empty<Brewery>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await base.OnInitializedAsync();
+        _breweries = (await Mediator.Send(new GetBreweriesQuery())).Breweries;
+    }
+}
